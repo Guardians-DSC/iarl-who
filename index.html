@@ -1,93 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>IARL WHO</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-.w3-quarter img{margin-bottom: -6px; cursor: pointer}
-.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
-</style>
-<body class="w3-light-grey">
+  <head>
+   <title>IARL WHO</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+   <style>
+      body,h1,h2,h3,h4,h5 {
+        font-family: "Raleway", sans-serif
+      }
+      .w3-quarter img{
+        margin-bottom: -6px; cursor: pointer
+      }
+      .member:hover img{
+        opacity: 0.3; transition: 0.3s
+      }
+      .member:hover {
+        color: black;
+        text-align: center;
+        position: relative;
+      }
+      .member p {
+        font-size: 1.5em;
+        font-family: "Raleway", sans-serif;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        visibility: hidden;
+        position: absolute;
+      }
+      .member:hover p {
+        visibility: visible;
+      }
+   </style>
+   <script src="scripts/setup.js"></script>
+   <!-- WHO -->
+   <script src="who/dfquaresma.js"></script>
+   <script src="who/danielrcoura.js"></script>
+   <script src="who/fmota0.js"></script>
+   <script src="who/dfquaresma.js"></script>
+   <script src="who/danielrcoura.js"></script>
+   <script src="who/fmota0.js"></script>
+  </head>
+   <body class="w3-light-grey">
+      <!-- Top menu on small screens -->
+      <header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
+         <span class="w3-left w3-padding">IARL WHO</span>
+      </header>
+      <div id="iarl-members" class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
-  <span class="w3-left w3-padding">IARL WHO</span>
-</header>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
-  <!-- Photo grid: Line 1 -->
-  <div class="w3-row w3-grayscale-min">
-    <div class="w3-quarter">
-      <img src="https://avatars1.githubusercontent.com/u/26947413?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
-   	</div>
-    <div class="w3-quarter">
-      <img src="https://avatars2.githubusercontent.com/u/21161221?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-    </div>
-    <div class="w3-quarter">
-      <img src="https://avatars1.githubusercontent.com/u/29783962?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
-    </div>
-    <div class="w3-quarter">
-      <img src="https://avatars2.githubusercontent.com/u/19214410?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-    </div>
-  </div>
-
-  <!-- Photo grid: Line 2 -->
-    <div class="w3-row w3-grayscale-min">
-      <div class="w3-quarter">
-        <img src="https://avatars3.githubusercontent.com/u/15371403?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
       </div>
-      <div class="w3-quarter">
-        <img src="https://avatars2.githubusercontent.com/u/20695061?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+      <!-- !PAGE CONTENT! -->
+      <div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+         <!-- Photo grid: Line 1 -->
+         <div class="w3-row w3-grayscale-min">
+            <div class="w3-quarter">
+               <img src="https://avatars1.githubusercontent.com/u/26947413?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars2.githubusercontent.com/u/21161221?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars1.githubusercontent.com/u/29783962?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars2.githubusercontent.com/u/19214410?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+            </div>
+         </div>
+         <!-- Photo grid: Line 2 -->
+         <div class="w3-row w3-grayscale-min">
+            <div class="w3-quarter">
+               <img src="https://avatars3.githubusercontent.com/u/15371403?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars2.githubusercontent.com/u/20695061?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars2.githubusercontent.com/u/23489054?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars1.githubusercontent.com/u/27634603?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+            </div>
+         </div>
+         <!-- Photo grid: Line 3 -->
+         <div class="w3-row w3-grayscale-min">
+            <div class="w3-quarter">
+               <img src="https://avatars3.githubusercontent.com/u/12082413?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars1.githubusercontent.com/u/23180089?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars0.githubusercontent.com/u/20460600?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars2.githubusercontent.com/u/26913829?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+            </div>
+         </div>
+         <!-- Photo grid: Line 4 -->
+         <div class="w3-row w3-grayscale-min">
+            <div class="w3-quarter">
+               <img src="https://avatars3.githubusercontent.com/u/882438?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+            </div>
+            <div class="w3-quarter">
+               <img src="https://avatars1.githubusercontent.com/u/17315697?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+            </div>
+         </div>
       </div>
-      <div class="w3-quarter">
-        <img src="https://avatars2.githubusercontent.com/u/23489054?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-      </div>
-      <div class="w3-quarter">
-        <img src="https://avatars1.githubusercontent.com/u/27634603?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-      </div>
-    </div>
-    
-      <!-- Photo grid: Line 3 -->
-    <div class="w3-row w3-grayscale-min">
-      <div class="w3-quarter">
-        <img src="https://avatars3.githubusercontent.com/u/12082413?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-      </div>
-      <div class="w3-quarter">
-        <img src="https://avatars1.githubusercontent.com/u/23180089?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
-      </div>
-      <div class="w3-quarter">
-        <img src="https://avatars0.githubusercontent.com/u/20460600?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-      </div>
-      <div class="w3-quarter">
-        <img src="https://avatars2.githubusercontent.com/u/26913829?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-      </div>
-    </div>
-    
-      <!-- Photo grid: Line 4 -->
-    <div class="w3-row w3-grayscale-min">
-      <div class="w3-quarter">
-        <img src="https://avatars3.githubusercontent.com/u/882438?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-      </div>
-      <div class="w3-quarter">
-        <img src="https://avatars1.githubusercontent.com/u/17315697?s=460&v=4" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
-      </div>
-    </div>
-</div>
-
-<script>
-// TODO Update onClick behavior
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-</script>
-
-</body>
+      <script>
+         // TODO Update onClick behavior
+         // Modal Image Gallery
+         function onClick(element) {
+           document.getElementById("img01").src = element.src;
+           document.getElementById("modal01").style.display = "block";
+           var captionText = document.getElementById("caption");
+           captionText.innerHTML = element.alt;
+         }
+      </script>
+      <script src="scripts/build.js"></script>
+   </body>
 </html>
