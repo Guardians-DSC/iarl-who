@@ -1,6 +1,6 @@
 # iarl-who
 O IARL-who é um repositório onde registramos todos que participaram do projeto IARL. 
-* [Saiba mais sobre o IARL](https://github.com/Guardians-DSC/iarl-nodejs/blob/master/README.md). 
+* [Saiba mais sobre o IARL](https://guardians-dsc.github.io/iarl.io/). 
 * [Saiba quem faz parte do IARL](https://guardians-dsc.github.io/iarl-who/). 
 
 ## Como participar
